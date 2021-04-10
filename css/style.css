@@ -1,0 +1,342 @@
+#header-img{
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#search{
+  border-radius: 15px;
+}
+
+td{
+  word-spacing: 0px ;
+  line-height: 25px
+}
+.form{
+  transform: translate(20px,);
+  padding: 10px;
+  border-radius: 10px;
+  }
+
+textarea{
+  height:300px;
+  border-radius: 10px;
+      }
+
+#tituloAnimado{
+  border-radius: 5px;
+  }
+
+#tituloAnimado2{
+  border-radius: 5px;
+}
+
+form fieldset{
+  margin-top: 10px;
+}
+
+#mynav {
+  display: flex;
+  width: 1000px;
+  margin-left: 52px;
+}
+
+
+#titulo{
+  padding: 2px;
+  padding-left: 7px;
+  padding-bottom: 4px;
+}
+
+#titulo-1{
+  padding: 2px;
+  padding-left: 7px;
+}
+
+
+
+.boton{
+  border-radius: 15px;
+  padding: 1px;
+  margin-bottom:2px;
+  margin-top: 6px;
+  }
+
+
+.boton-4{
+  border-radius: 20px;
+}
+
+.boton-2{
+  margin-top: 15px;
+}
+
+.t-politica{
+  padding: 10px;
+  font-size: 25px;
+}
+
+.p-polit{
+  padding: 10px;
+  font-size: 30x;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+.img-cfk{
+  width:700px;
+}
+.iframe{
+  padding: 10px;
+}
+
+.p-footer{
+  font-size: 20px;
+  margin-left: 9px;
+  margin-bottom: 2px;
+}
+
+.t-foot{
+  font-size: 20px;
+}
+
+.sub{
+  text-decoration: none;
+  margin:1px;
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+}
+
+.footer2{
+  margin-top: 35px;
+}
+
+
+body{
+  background-color:rgb(235, 236, 238);
+  align-items: center;
+  font-family: 'Noto Sans SC';
+}
+
+.b{
+  background-color:rgb(235, 236, 238);
+}
+#f:hover{
+  color: grey;
+}
+#f{
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  font-size: 1,9rem;
+  }
+
+nav a{
+  text-decoration: none;
+  color:black;
+  font-family: 'Pacifico', cursive;
+}
+
+#search{
+  font-family: sans-serif;
+}
+
+#search2{
+  font-family: 'Pacifico', cursive ;
+}
+
+nav ul li a:hover{
+  color: grey;
+}
+
+.form{
+  text-align: center;
+  background-color: #b4b4b4;
+  background: linear-gradient(90deg, rgb(121, 119, 119), #ccc)
+  }
+
+  #tituloAnimado{
+    background-color: #dfd9d9;
+}  
+
+#tituloAnimado2{
+  background-color: #dfd9d9;
+  font-family: "pacifico" "cursive";
+}
+
+
+@keyframes tituloAnimado{
+  0% {
+
+      }
+  50% {
+      background-color: rgb(189, 94, 134);
+      }
+}
+
+#mynav{
+  justify-content: space-around;
+  font-family: Arial,italic;
+  color: black ;
+  font-style: italic;
+  font-size: 0.9 rem;
+}
+
+.myinput {
+  background-color: #b98e4d;
+  font-weight:bold;
+}
+
+.card {
+  color: rgb(255, 255, 255);
+  border: 2px solid black;
+}
+
+.card a {
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 1px 1px rgb(202, 202, 202);
+  color: #FF0080
+}
+
+.card a:hover {
+  color: blue;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+#titulo{
+  font-size: 28px;
+  text-align: center;
+  font-family: Raleway,sans-serif;
+  font-weight: lighter;
+  color: #2C2F34;
+  background: linear-gradient(90deg, rgb(189, 94, 134), #ccc)
+}
+
+
+#titulo-1{
+  text-align: center;
+  color:black;
+  font-weight: bold;
+}
+
+.links-redes{
+  background-color: rgb(192, 192, 192);
+}
+
+.boton{
+  font-size: 0,1rem;
+  color:rgb(32, 32, 32);
+  font-family: sans-serif;
+}
+
+.boton-3{
+  font-size:17px ;
+  color: #d8227d;
+}
+
+.boton-4{
+  font-size: 0,1rem;
+  color: #2c282a;
+}
+
+.form{
+  font-family: sans-serif;
+}
+
+.t-politica{
+  text-align: justify;
+  font-family: Raleway,sans-serif;
+  font-weight: bold;
+}
+
+.p-polit{
+  text-align: justify;
+  font-family: raleway, sans-serif;
+}
+
+.fondo{
+  background-color: rgb(235, 236, 238);
+}
+
+.p-footer{
+  text-align: center;
+  font-family: raleway,sans-serif;
+  }
+
+.p-footer1{
+  font-family: pacifico, cursive;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.t-foot{
+  text-align: center;
+  }
+
+th{
+  text-transform:uppercase
+}
+
+#tituloAnimado:hover{
+  animation-name: tituloAnimado;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+#tituloAnimado2:hover{
+  animation-name: tituloAnimado;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+}
+
+.sub{
+  font-family: raleway,sans-serif;
+}
+
+.navbar-nav-scroll{
+  overflow: hidden;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+textarea{
+  box-sizing: border-box;
+  resize: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #f{
+  display: flex;
+  }
+  iframe {
+    width: 550px;
+  }
+  .img-body {
+    width: 550px;  
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #f{
+  display: flex;
+  }
+
+  iframe {
+    width: 450px;
+  }
+  .img-body {
+    display: none;  
+  }
+}
+
