@@ -29,8 +29,10 @@ textarea{
   border-radius: 5px;
   }
 
-#tituloAnimado2{
+.hover-button {
   border-radius: 5px;
+  background-color: #dfd9d9;
+  font-family: "pacifico" "cursive";
 }
 
 form fieldset{
@@ -160,12 +162,6 @@ nav ul li a:hover{
     background-color: #dfd9d9;
 }  
 
-#tituloAnimado2{
-  background-color: #dfd9d9;
-  font-family: "pacifico" "cursive";
-}
-
-
 @keyframes tituloAnimado{
   0% {
 
@@ -181,11 +177,6 @@ nav ul li a:hover{
   color: black ;
   font-style: italic;
   font-size: 0.9 rem;
-}
-
-.myinput {
-  background-color: #b98e4d;
-  font-weight:bold;
 }
 
 .card {
@@ -291,12 +282,6 @@ th{
   animation-timing-function: ease;
 }
 
-#tituloAnimado2:hover{
-  animation-name: tituloAnimado;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-}
 
 .sub{
   font-family: raleway,sans-serif;
@@ -344,3 +329,17 @@ textarea{
   border-radius: 2rem;
 }
 
+i {
+  font-size: 2rem;
+  color: black;
+}
+i:hover {
+  color: #d8227d;
+}
+
+.hover-button:hover {
+    animation-name: tituloAnimado;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
