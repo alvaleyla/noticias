@@ -54,14 +54,14 @@ body#contacto{
                     background-color: $color-form;
                     background: $fondo-gradiente;
                     transform: translate(20px,);
-                    padding: 10px;
-                    border-radius: 10px
+                    padding: $padding-formulario;
+                    border-radius: $border-radius-formulario;
                 }
                     input#search{
                         font-family: 'Pacifico', cursive ;
                     }
                     fieldset{
-                    margin-top: 10px;
+                    margin-top: $margin-t-fieldset;
                 }
                     textarea#search{
                         font-family: 'Pacifico', cursive ;
@@ -71,16 +71,16 @@ body#contacto{
                                 background-color:$fondo-button;
                             }
                             input.boton{
-                                border-radius: 15px;
+                                border-radius: $border-radius-input-boton;
                                 padding: 1px;
-                                margin-bottom:2px;
-                                margin-top: 6px;
+                                margin-bottom:$margin-bottom-input-boton;
+                                margin-top: $margin-t-inputboton;
                                 font-size: 0,1rem;
                                 color:$color-boton;
                                 font-family: sans-serif;
                             }
                             input.boton-2{
-                                margin-top: 15px;
+                                margin-top: $margin-t-inputbotonII;
 
                             }
                     fieldset legend.boton-3{
@@ -109,7 +109,7 @@ body#contacto{
                                 p.p-footer{
                                 text-align: center;
                                 font-family: raleway,sans-serif;
-                                font-size: 20px;
+                                font-size:$font-size-P-footer;
                                 margin-left: $marig-left-footer;
                                 margin-bottom: $margin-b-footer;
                             }

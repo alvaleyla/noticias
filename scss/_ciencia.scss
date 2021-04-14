@@ -1,0 +1,101 @@
+body#ciencia{
+    background-color: $fondo-body;
+    align-items: center;
+    font-family: "Noto Sans SC"
+}
+
+header a#header-img{
+    height: $height;
+    margin-left: $margin-l;
+    margin-right: $margin-r;
+    margin-top: $margin-t;
+    margin-bottom: $margin-b;
+}
+
+nav ul{
+    #f{
+        justify-content: space-between;
+        align-items: center;
+        color:$fondo-parrafo;
+        font-size: 1,9rem;
+        &:hover{
+            color:$fondo-hover;
+        }
+}
+}
+
+form input#search2{
+    font-family: 'Pacifico', cursive ;
+}
+        h1#titulo{
+            font-size: 28px;
+            text-align: center;
+            font-family: Raleway,sans-serif;
+            font-weight: lighter;
+            color: $fondo-titulo;
+            background-color: $fondo-gradiente;
+            padding: $padding-generico;
+            padding-left:$padding-l-generico;
+            padding-bottom: $padding-b-generico;
+        }
+
+        h2.t-politica{
+            text-align: justify;
+                font-family: Raleway,sans-serif;
+                font-weight: bold;
+                padding: $padding-t-politica;
+                font-size: 25px;
+                }
+            img.p-polit{
+                text-align: justify;
+                font-family: raleway, sans-serif;
+                padding: 10px;
+                font-size: 30x;
+                word-spacing: 3px;
+                letter-spacing: 1px;
+                }
+            img.img-body{
+                width: 550px; 
+            }
+
+        p.p-polit{
+            padding: 10px;
+            font-size: 30x;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+            text-align: justify;
+            font-family: raleway, sans-serif;
+            }
+
+        footer.fondo{
+            background-color: $fondo-body;
+        }
+
+            h3.t-politica{
+                text-align: justify;
+                font-family: Raleway,sans-serif;
+                font-weight: bold;
+                padding: $padding-t-politica;
+                font-size: 25px;
+            }
+
+            h3.t-foot{
+                text-align: center;
+                font-size: 20px;
+            }
+
+            p.p-footer{
+            text-align: center;
+            font-family: raleway,sans-serif;
+            font-size: $font-size-P-footer;
+            margin-left: $marig-left-footer;
+            margin-bottom: $margin-b-footer;
+        }
+
+            p.p-footer1{
+                font-family: pacifico, cursive;
+                text-align: center;
+                font-weight: bolder;
+
+            }
+

@@ -340,3 +340,7 @@ textarea{
   }
 }
 
+.b-radius{
+  border-radius: 2rem;
+}
+
