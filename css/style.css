@@ -1,5 +1,5 @@
 #header-img{
-  height: 40px;
+  height: 45px;
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 20px;
@@ -15,7 +15,7 @@ td{
   line-height: 25px
 }
 .form{
-  transform: translate(20px,);
+
   padding: 10px;
   border-radius: 10px;
   }
@@ -25,9 +25,6 @@ textarea{
   border-radius: 10px;
       }
 
-#tituloAnimado{
-  border-radius: 5px;
-  }
 
 .hover-button {
   border-radius: 5px;
@@ -131,7 +128,8 @@ body{
   justify-content: space-between;
   align-items: center;
   color: black;
-  font-size: 1,9rem;
+  font-family: Montserrat;
+  font-weight: bold;
   }
 
 nav a{
@@ -147,6 +145,10 @@ nav a{
 #search2{
   font-family: 'Pacifico', cursive ;
 }
+#search2:focus{
+  box-shadow: 0 0 5px 2px #d4287e; 
+  color: #7a7777;
+}
 
 nav ul li a:hover{
   color: grey;
@@ -154,12 +156,17 @@ nav ul li a:hover{
 
 .form{
   text-align: center;
+
   background-color: #b4b4b4;
   background: linear-gradient(90deg, rgb(121, 119, 119), #ccc)
+  
+  
   }
 
-  #tituloAnimado{
-    background-color: #dfd9d9;
+#btn-enviar{
+    background-color: #e0dbdb;
+    border-radius: 15px;
+    font-size:95%;
 }  
 
 @keyframes tituloAnimado{
@@ -202,7 +209,7 @@ nav ul li a:hover{
 }
 
 #titulo{
-  font-size: 28px;
+  font-size: 25px;
   text-align: center;
   font-family: Raleway,sans-serif;
   font-weight: lighter;
@@ -229,7 +236,8 @@ nav ul li a:hover{
 
 .boton-3{
   font-size:17px ;
-  color: #d8227d;
+  color: #e42384;
+  text-shadow: 1px 1px 1px rgb(83, 83, 83);
 }
 
 .boton-4{
@@ -275,13 +283,6 @@ th{
   text-transform:uppercase
 }
 
-#tituloAnimado:hover{
-  animation-name: tituloAnimado;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-}
-
 
 .sub{
   font-family: raleway,sans-serif;
@@ -309,6 +310,10 @@ textarea{
   }
   .img-body {
     width: 550px;  
+  }
+  #header-img{
+    width: 300px;
+    height: 40px;
   }
 }
 
@@ -342,4 +347,10 @@ i:hover {
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
+}
+
+#btn-borrar{
+  background-color: #c46c98;
+  border-radius: 15px;
+  font-size:95%;
 }
