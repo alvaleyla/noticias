@@ -301,7 +301,7 @@ textarea{
   resize: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 760px) {
   #f{
   display: flex;
   }
@@ -317,7 +317,7 @@ textarea{
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 570px) {
   #f{
   display: flex;
   }
@@ -353,4 +353,8 @@ i:hover {
   background-color: #c46c98;
   border-radius: 15px;
   font-size:95%;
+}
+
+.crs{
+  width:1000px;
 }
