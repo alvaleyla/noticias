@@ -186,27 +186,7 @@ nav ul li a:hover{
   font-size: 0.9 rem;
 }
 
-.card {
-  color: rgb(255, 255, 255);
-  border: 2px solid black;
-}
 
-.card a {
-  text-decoration: none;
-  font-weight: bold;
-  text-shadow: 1px 1px rgb(202, 202, 202);
-  color: #FF0080
-}
-
-.card a:hover {
-  color: blue;
-}
-
-.card p {
-  font-size: 14px;
-  font-weight: bold;
-  text-shadow: 2px 2px black;
-}
 
 #titulo{
   font-size: 25px;
@@ -224,9 +204,6 @@ nav ul li a:hover{
   font-weight: bold;
 }
 
-.links-redes{
-  background-color: rgb(192, 192, 192);
-}
 
 .boton{
   font-size: 0,1rem;
@@ -356,5 +333,10 @@ i:hover {
 }
 
 .crs{
-  width:1000px;
+  width:1050px;
 }
+
+.bg-card{
+  background-color: rgb(235, 236, 238);
+}
+
